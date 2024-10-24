@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #8261EE;
+    --color-two: #FF589E;
+    --color-text: #7B8291;
+}
+
+body {
+    color: #1e1e1e;
+    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Button */
+
+.button {
+    display: inline-block;
+    color: var(--color-text);
+    background-color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.button-two {
+    background-color: var(--color-two);
+    color: #fff;
+}
+
+.button-two:hover {
+    background-color: var(--color-one);
+    color: #fff;
+}
+
+.button-one {
+    background-color: var(--color-one);
+    color: #fff;
+}
+
+.button-one:hover {
+    background-color: var(--color-two);
+    color: #fff;
+}
+
+.button-sm-one {
+    background-color: var(--color-one);
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 30px;
+}
+
+.button-sm-one:hover {
+    background-color: var(--color-two);
+    color: #fff;
+}
+
+/* End Button */
+
+/* Box-head */
+
+.box-head {
+    color: #000;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.box-head .inner-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.box-head .inner-desc {
+    margin-top: 0;
+    color: var(--color-text);
+    font-size: 15px;
+}
+
+/* End Box-head */
